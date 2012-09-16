@@ -8,16 +8,19 @@ Stable tag: 2.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin applies wp_make_link_relative function to links (posts, categories, pages and etc.) to convert them to relative URLs.
+A plugin applies wp_make_link_relative function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
 
 == Description ==
-A plugin applies wp_make_link_relative function to links (posts, categories, pages and etc.) to convert them to relative URLs.
+
+A plugin applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
+
+**Notice**: This plugin is mainly used for local development. Haven't tested on a production environment, but it should work, no harm to your sever.
 
 == Installation ==
 
-WordPress (Multisite ready):
+WordPress (Also works on multisite enabled instance):
 
-1. Upload the extracted files to the `/wp-content/plugins/` directory
+1. Upload the extracted files to the `/wp-content/plugins/` directory, or just install this plugin from your WordPress backend.
 2. In 'Plugins' page, choose 'Activate'
 
 == Upgrade Notice ==
