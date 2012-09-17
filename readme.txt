@@ -38,7 +38,7 @@ Will be converted to:
 
 `/wp/wp-content/themes/twentyeleven/style.css`
 
-Then after activating this plugin, you can simply access your locsl instance using `http://192.168.0.1:8080/wp/` on your iPad or other mobile devices without having styles and navigation issue.
+Then after activating this plugin, you can simply access your local instance using `http://192.168.0.1:8080/wp/` on your iPad or other mobile devices without having styles and navigation issue.
 
 **Notice**: This plugin is mainly used for local development. Haven't tested on a production environment, but it should work, no harm to your sever.
 
