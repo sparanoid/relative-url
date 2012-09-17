@@ -14,6 +14,30 @@ A plugin applies wp_make_link_relative function to links to convert them to rela
 
 A plugin applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
 
+For example:
+
+`http://localhost:8080/wp/`
+
+Will be converted to:
+
+`/wp/`
+
+And..
+
+`http://localhost:8080/wp/2012/09/01/hello-world/`
+
+Will be converted to:
+
+`/wp/2012/09/01/hello-world/`
+
+And..
+
+`http://localhost:8080/wp/wp-content/themes/twentyeleven/style.css`
+
+Will be converted to:
+
+`/wp/wp-content/themes/twentyeleven/style.css`
+
 **Notice**: This plugin is mainly used for local development. Haven't tested on a production environment, but it should work, no harm to your sever.
 
 == Installation ==
