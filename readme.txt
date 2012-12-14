@@ -4,15 +4,17 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=VJRCEYRS
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
 Tested up to: 3.5
-Stable tag: 0.0.3
+Stable tag: 0.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin applies wp_make_link_relative function to links to convert them to relative URLs.
+Relative URL applies wp_make_link_relative function to links to convert them to relative URLs.
 
 == Description ==
 
-A plugin applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
+Relative URL applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
+
+More information please visit my [site](hhttp://sparanoid.com/work/relative-url/).
 
 For example:
 
@@ -51,6 +53,12 @@ WordPress (Also works on multisite enabled instance):
 
 == Upgrade Notice ==
 
+= 0.0.5 =
+* Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/relative-url/ props @lianghai
+
+= 0.0.4 =
+* Update description, props @lianghai
+
 = 0.0.3 =
 * Compatibility check for 3.5, nothing new, just bump version to tell everyone this plugin still works.
 
@@ -61,6 +69,12 @@ WordPress (Also works on multisite enabled instance):
 * First release
 
 == Changelog ==
+
+= 0.0.5 =
+* Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/relative-url/ props @lianghai
+
+= 0.0.4 =
+* Update description, props @lianghai
 
 = 0.0.3 =
 * Compatibility check for 3.5, nothing new, just bump version to tell everyone this plugin still works.
