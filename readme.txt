@@ -1,10 +1,10 @@
 === Relative URL ===
 Contributors: Sparanoid
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=VJRCEYRS8GTYE&lc=C2&item_name=Plugin%20Donation&button_subtype=services&currency_code=USD&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted
+Donate link: http://sparanoid.com/donate/
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
 Tested up to: 3.5
-Stable tag: 0.0.5
+Stable tag: 0.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ WordPress (Also works on multisite enabled instance):
 
 == Upgrade Notice ==
 
+= 0.0.6 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
+
 = 0.0.5 =
 * Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/relative-url/ props @lianghai
 
@@ -69,6 +72,9 @@ WordPress (Also works on multisite enabled instance):
 * First release
 
 == Changelog ==
+
+= 0.0.6 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
 
 = 0.0.5 =
 * Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/relative-url/ props @lianghai
