@@ -3,8 +3,8 @@ Contributors: Sparanoid
 Donate link: http://sparanoid.com/donate/
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
-Tested up to: 3.5
-Stable tag: 0.0.6
+Tested up to: 3.6
+Stable tag: 0.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ WordPress (Also works on multisite enabled instance):
 
 == Upgrade Notice ==
 
+= 0.0.7
+* Compatibility check for 3.6, nothing new, just bump version to tell everyone this plugin still works.
+
 = 0.0.6 =
 * Update donate link, If you like this plugin, please consider buying me a cup of coffee.
 
@@ -72,6 +75,9 @@ WordPress (Also works on multisite enabled instance):
 * First release
 
 == Changelog ==
+
+= 0.0.7
+* Compatibility check for 3.6, nothing new, just bump version to tell everyone this plugin still works.
 
 = 0.0.6 =
 * Update donate link, If you like this plugin, please consider buying me a cup of coffee.
