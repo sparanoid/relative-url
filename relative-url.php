@@ -3,13 +3,13 @@
 Plugin Name: Relative URL
 Plugin URI: http://sparanoid.com/work/relative-url/
 Description: Relative URL applies wp_make_link_relative function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
-Version: 0.0.9
+Version: 0.0.10
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
-Author Email: info@sparanoid.com
+Author Email: t@sparanoid.com
 License: GPLv2 or later
 
-  Copyright 2014 Tunghsiao Liu, aka. Sparanoid (info@sparanoid.com)
+  Copyright 2014 Tunghsiao Liu, aka. Sparanoid (t@sparanoid.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
