@@ -39,11 +39,6 @@ License: GPLv2 or later
   add_action( 'template_redirect', 'relative_url' );
 
   function relative_url() {
-    // Don't do anything if:
-    // - In feed
-    // - In sitemap by WordPress SEO plugin
-    if ( is_feed() || get_query_var( 'sitemap' ) )
-      return;
     $filters = array(
       'post_link',       // Normal post link
       'post_type_link',  // Custom post type link
@@ -94,9 +89,18 @@ License: GPLv2 or later
       // 'home_url'
     );
 
+    // Thanks to https://wordpress.org/support/topic/request-only-replace-local-urls
+    $home_url = home_url();
+    $filter_fn = function( $link ) use ( $home_url ) {
+      if ( strpos( $link, $home_url ) === 0 ) {
+        return wp_make_link_relative( $link );
+      } else {
+        return $link;
+      }
+    };
+
     foreach ( $filters as $filter ) {
-      add_filter( $filter, 'wp_make_link_relative' );
+      add_filter( $filter, $filter_fn );
     }
-    home_url($path = '', $scheme = null);
   }
 ?>
