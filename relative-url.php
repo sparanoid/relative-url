@@ -102,7 +102,7 @@ function relative_url() {
   // Thanks to https://wordpress.org/support/topic/request-only-replace-local-urls
   $home_url = home_url();
   $filter_fn = function( $link ) use ( $home_url ) {
-    if ( strpos( $link, $home_url ) === 0 ) {
+    if ( !is_array($link) && strpos( $link, $home_url ) === 0 ) {
       return wp_make_link_relative( $link );
     } else {
       return $link;
