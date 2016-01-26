@@ -26,8 +26,9 @@ License: GPLv2 or later
 */
 
 function callback_relative_url($buffer) {
+  $server_host = '//' . $_SERVER['HTTP_HOST'];
   $home_url = esc_url(home_url('/'));
-  $home_url_relative = wp_make_link_relative($home_url);
+  $home_url_relative = $server_host . wp_make_link_relative($home_url);
   $home_url_escaped = str_replace('/', '\/', $home_url);
   $home_url_escaped_relative = str_replace('/', '\/', $home_url_relative);
 
