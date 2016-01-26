@@ -4,7 +4,7 @@ Donate link: http://sparanoid.com/donate/
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
 Tested up to: 4.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ WordPress (Also works on multisite enabled instance):
 
 == Upgrade Notice ==
 
+= 0.1.1 =
+* Fix: missing URL for inline sccripts
+
 = 0.1.0 =
 * Completely rewrite it from the ground up, now EVERY links, include the ones in your dashboard will be replaced with Relative URLs!
 
@@ -97,6 +100,9 @@ WordPress (Also works on multisite enabled instance):
 * First release
 
 == Changelog ==
+
+= 0.1.1 =
+* Fix: missing URL for inline sccripts
 
 = 0.1.0 =
 * Completely rewrite it from the ground up, now EVERY links, include the ones in your dashboard will be replaced with Relative URLs!
