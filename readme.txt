@@ -3,8 +3,8 @@ Contributors: Sparanoid
 Donate link: http://sparanoid.com/donate/
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
-Tested up to: 4.5
-Stable tag: 0.1.3
+Tested up to: 4.7
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ Relative URL applies wp_make_link_relative function to links to convert them to 
 == Description ==
 
 Relative URL applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
+
+**Notice**: This plugin is SHOULD be used for local development only. I haven't tested on a production environment, it **may** work with some issues, like unwanted URLs in RSS feed or sharing URLs are replaced with relative URLs, etc.
 
 More information please visit my [site](http://sparanoid.com/work/relative-url/).
 
@@ -42,8 +44,6 @@ Will be converted to:
 
 Then after activating this plugin, you can simply access your local instance using `http://10.0.1.5:8888/wp/` on your iPad or other mobile devices without having styles and navigation issue.
 
-**Notice**: This plugin is mainly used for local development. Haven't tested on a production environment, but it should work, no harm to your sever.
-
 == Installation ==
 
 WordPress (Also works on multisite enabled instance):
@@ -52,6 +52,9 @@ WordPress (Also works on multisite enabled instance):
 2. In 'Plugins' page, choose 'Activate'
 
 == Upgrade Notice ==
+
+= 0.1.4 =
+* Compatibility check for 4.6 and 4.7, nothing new, just bump version to tell everyone this plugin still works.
 
 = 0.1.3 =
 * Compatibility check for 4.5, nothing new, just bump version to tell everyone this plugin still works.
@@ -106,6 +109,9 @@ WordPress (Also works on multisite enabled instance):
 * First release
 
 == Changelog ==
+
+= 0.1.4 =
+* Compatibility check for 4.6 and 4.7, nothing new, just bump version to tell everyone this plugin still works.
 
 = 0.1.3 =
 * Compatibility check for 4.5, nothing new, just bump version to tell everyone this plugin still works.
