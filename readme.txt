@@ -51,6 +51,16 @@ WordPress (Also works on multisite enabled instance):
 1. Upload the extracted files to the `/wp-content/plugins/` directory, or just install this plugin from your WordPress backend.
 2. In 'Plugins' page, choose 'Activate'
 
+== Frequently Asked Questions ==
+
+= What if I deactivate this plugin? =
+
+The URLs will be changed back to absolute URLs again, there's no database writes with this plugin.
+
+= Why this plugin is not recommend for production environment? =
+
+URLs in RSS feed are also replaced to relative URLs with this plugin, this could causes some issues for RSS readers that they will be confused for URLs without host. Shared URLs (ie Jetpack Sharing module) are also replaced to related URLs, Twitter, Facebook or other social sites won't treat them as valid URLs.
+
 == Upgrade Notice ==
 
 = 0.1.4 =
