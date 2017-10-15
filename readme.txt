@@ -12,9 +12,9 @@ Relative URL applies wp_make_link_relative function to links to convert them to 
 
 == Description ==
 
-Relative URL applies `wp_make_link_relative` function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.).
+Relative URL applies the `wp_make_link_relative` function to links (posts, categories, pages, etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad, iPhone, etc.).
 
-**Notice**: This plugin is SHOULD be used for local development only. I haven't tested on a production environment, it **may** work with some issues, like unwanted URLs in RSS feed or sharing URLs are replaced with relative URLs, etc.
+**Notice**: This plugin SHOULD be used for local development only. I haven't tested on a production environment; it **may** work with some issues, like unwanted URLs in RSS feed or sharing URLs are replaced with relative URLs, etc.
 
 More information please visit my [site](http://sparanoid.com/work/relative-url/).
 
