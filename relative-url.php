@@ -27,11 +27,11 @@ License: GPLv2 or later
 
 // Modified from https://github.com/retlehs/roots/issues/490
 
-// This makes paths realitive for NEW content.
-// For previously posted content, full urls are already loaded in to the database and will need to be updated.
+// This makes paths relative for NEW content.
+// For previously posted content, full urls are already loaded into the database and will need to be updated.
 
 // for media and image paths - update wp admin: settings>media
-// set "Full URL path to files" feild to '/your-upload-folder-name/'
+// set "Full URL path to files" field to '/your-upload-folder-name/'
 // This would be '/assets/' for a default roots install.
 
 // http://www.deluxeblogtips.com/2012/06/relative-urls.html
