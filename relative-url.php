@@ -130,7 +130,7 @@ function callback_relative_url($buffer) {
 }
 
 function buffer_start_relative_url() { ob_start('callback_relative_url'); }
-function buffer_end_relative_url() { @ob_end_flush(); }
+function buffer_end_relative_url() { if (ob_get_length()) @ob_end_flush(); }
 
 // http://codex.wordpress.org/Plugin_API/Action_Reference
 add_action('registered_taxonomy', 'buffer_start_relative_url');
