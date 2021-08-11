@@ -4,7 +4,7 @@ Donate link: https://sparanoid.com/donate/
 Tags: admin, administration, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, template, templates, text, title, wp_make_link_relative, widget, widgets, wpmu, writing
 Requires at least: 2.1.0
 Tested up to: 5.8
-Stable tag: 0.1.7
+Stable tag: 0.1.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,6 +62,9 @@ The URLs will be changed back to absolute URLs again, there's no database writes
 URLs in RSS feed are also replaced to relative URLs with this plugin, this could causes some issues for RSS readers that they will be confused for URLs without host. Shared URLs (ie Jetpack Sharing module) are also replaced to related URLs, Twitter, Facebook or other social sites won't treat them as valid URLs.
 
 == Upgrade Notice ==
+
+= 0.1.8 =
+* Compatibility check for 5.8, nothing new, just bump version to tell everyone this plugin still works.
 
 = 0.1.7 =
 * Compatibility check for 5.0, nothing new, just bump version to tell everyone this plugin still works.
@@ -128,6 +131,9 @@ URLs in RSS feed are also replaced to relative URLs with this plugin, this could
 * First release
 
 == Changelog ==
+
+= 0.1.8 =
+* Compatibility check for 5.8, nothing new, just bump version to tell everyone this plugin still works.
 
 = 0.1.7 =
 * Compatibility check for 5.0, nothing new, just bump version to tell everyone this plugin still works.
