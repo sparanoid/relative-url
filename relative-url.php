@@ -9,7 +9,7 @@ Author URI: https://sparanoid.com/
 Author Email: t@sparanoid.com
 License: GPLv2 or later
 
-  Copyright 2018 sparanoid (t@sparanoid.com)
+  Copyright 2021 sparanoid (t@sparanoid.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
